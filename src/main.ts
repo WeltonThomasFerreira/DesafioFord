@@ -4,7 +4,7 @@ const INPUT = 'Desafio Ford'
 const SECRET_KEY = 'ford'
 
 const crypto = new Crypto()
-const encrypted = crypto.generate(INPUT, SECRET_KEY)
+const encrypted = crypto.encrypt(INPUT, SECRET_KEY)
 const decrypted = crypto.decrypt(encrypted, SECRET_KEY)
 
 console.log(encrypted)

@@ -1,5 +1,5 @@
 export default class Crypto {
-  generate (vinNumber: string, secretKey: string) {
+  encrypt (vinNumber: string, secretKey: string) {
     const vin = vinNumber.split('')
     const key = secretKey.split('')
     const newArray = []
